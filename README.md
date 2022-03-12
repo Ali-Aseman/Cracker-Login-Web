@@ -1,4 +1,8 @@
 # Cracker-Login-Web
+
+# !!!!!! Be sure to create 2 files for username and password !!!!!!
+
+
 Today we will see how to create a cracker for login pages that use the POST method to transfer information. In this tutorial, we will use the requests library in Python to send POST requests to the server. The requests library has a function called post, which we use to do our work.
 
 Before we get started, let me first explain about HTTP requests. When a user wants to log in to a website through the login page, he must first go to the login page address through his browser and enter his username and password and, for example, press the login button. This causes an HTTP request to be sent via the POST method to the server of that site, which contains the username and password entered by the user. After the server receives this request, it will see if the username and password entered by the user are valid or not. If it is valid, it is allowed to enter and if it is not valid, it is not allowed to enter.
