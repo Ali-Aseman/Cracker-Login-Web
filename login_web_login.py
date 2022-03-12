@@ -35,7 +35,8 @@ print()
 print()
 colorama.init() ## initialize the colorama
 
-url = "http://192.168.1.105/dvwa/login.php"
+url = input("Enter The Url Website : ") 
+# "http://192.168.1.105/dvwa/login.php"
 
 usernamefile = input("Username List : ")
 passwordfile = input("Password List : ")
